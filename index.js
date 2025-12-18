@@ -409,4 +409,17 @@ async function startPrivateBot() {
     
     function getSeason(date) {
         const month = date.getMonth();
-        if (month >= 2 && 
+        if (month >= 2 && month <= 4) return 'Spring';
+        if (month >= 5 && month <= 7) return 'Summer';
+        if (month >= 8 && month <= 10) return 'Autumn';
+        return 'Winter';
+    }
+}
+
+// Error handling
+process.on('unhandledRejection', (error) => {
+    console.error('Unhandled Promise Rejection:', error);
+});
+
+// Start the private bot
+startPrivateBot();
