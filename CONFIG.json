@@ -1,0 +1,26 @@
+{
+  "owner": {
+    "name": "KING INNOCENT",
+    "phone": "0765456219",
+    "whatsapp": "2765456219@s.whatsapp.net",
+    "channel": "https://whatsapp.com/channel/0029VbBVKaZ77qVNlG7XE840"
+  },
+  "bot": {
+    "name": "KING INNOCENT PRIVATE BOT",
+    "version": "2.0.0",
+    "prefix": "#",
+    "mode": "private"
+  },
+  "security": {
+    "authorized_numbers": ["2765456219@s.whatsapp.net"],
+    "block_message": "🚫 ACCESS DENIED - Private Bot",
+    "log_activities": true,
+    "notify_owner": true
+  },
+  "features": {
+    "weather": true,
+    "calculator": true,
+    "logs": true,
+    "status": true
+  }
+}
